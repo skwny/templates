@@ -1,0 +1,26 @@
+/* *********************************** */
+// @Mixins
+/* *********************************** */
+
+// --------------------------------------
+// FONTS
+@mixin quicksand-font($weight, $size:1rem, $color:black){
+	color: $color;
+	font-family: $font-stack-quicksand;
+	font-weight: $weight;
+	font-size: $size;
+}
+
+@mixin roboto-font($weight, $size:1rem, $color:black){
+	color: $color;
+	font-family: $font-stack-roboto;
+	font-weight: $weight;
+	font-size: $size;
+}
+
+@mixin helvetica-font($weight, $size:1rem, $color:black){
+	color: $color;
+	font-family: $font-stack-helvetica;
+	font-weight: $weight;
+	font-size: $size;
+}

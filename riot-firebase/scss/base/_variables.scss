@@ -1,0 +1,69 @@
+/* *********************************** */
+// @Variables
+/* *********************************** */
+// Fonts
+$font-stack-helvetica:	Helvetica-nueu, Helvetica,Arial,"Lucida Grande",sans-serif;
+$font-stack-quicksand:	'Quicksand', Helvetica-nueu, sans-serif; // 300, 400, 700
+$font-stack-roboto:		"Roboto","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif; // 100, 400, 900
+
+// Colors
+$sky-blue: 				#2196f3;
+$horizon:				#df5c32;
+$green-1:				#00dd61;
+$green-2:				#00ad4b;
+$pinkish:				#f56e76;
+$gray-1:				#314f5d;
+
+// Sizes
+$font-default:			62.5%;
+$nav-buttons-height:	2rem;
+$quicksand-thin:		300;
+$quicksand-normal:		400;
+$quicksand-bold:		700;
+$roboto-thin:			100;
+$roboto-normal:			400;
+$roboto-bold:			900;
+$nav-height:			2.8rem;
+$splash-starter-width:	62vw;
+
+/* *********************************** */
+// @Extends
+/* *********************************** */
+.max-height {
+	height: 100%;
+}
+.display-flex {
+	display: flex;
+}
+// flex vertical alignment
+.display-flex-align-items-center {	
+	align-items: center;
+	display: flex;
+}
+.display-flex-align-items-bottom {	
+	align-items: flex-end;
+	display: flex;
+}
+
+
+// flex horizontal alignment
+.display-flex-justify-content-center {	
+	display: flex;
+	justify-content: center; 
+}
+.display-flex-justify-content-end {	
+	display: flex;
+	justify-content: flex-end; 
+}
+
+
+// text horizontal alignment
+.align-center {
+	text-align: center; 
+}
+.align-right {
+	text-align: right; 
+}
+.max-height {
+	max-height: 100%;
+}

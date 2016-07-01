@@ -1,0 +1,39 @@
+// http://thesassway.com/advanced/modular-css-naming-conventions
+// http://sass-lang.com/documentation/file.SASS_REFERENCE.html#how_it_works
+// https://hackhands.com/70-Expert-Ideas-For-Better-CSS-Coding/#43
+// http://stackoverflow.com/questions/8969381/what-is-the-difference-between-display-inline-and-display-inline-block
+// https://www.w3.org/TR/CSS21/indexlist.html
+// switches: http://codepen.io/iamturner/pen/GZVoXo
+// polygon/angled edges: https://www.viget.com/articles/angled-edges-with-css-masks-and-transforms
+// svg viewbox/viewport stuff: http://jonibologna.com/svg-viewbox-and-viewport/
+// more svg stuff: https://sarasoueidan.com/blog/svg-coordinate-systems/
+
+// div > strong { color:#f00; }	--> affects all immediate strong children of parent div
+// p + p { color:#f00; }		--> affects 2nd 'p' sibling preceded by 1st 'p' sibling
+
+// flex-box: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+// grid: https://css-tricks.com/snippets/css/complete-guide-grid/
+// method-draw: http://editor.method.ac/#move_front
+// stuff: http://enjoycss.com/
+
+
+/* *********************************** */
+// @Debug
+// * { border: 1px solid #ff0000; }
+/* *********************************** */
+
+
+// Base
+@import "base/variables";
+@import "base/mixins";
+@import "base/reset";
+
+
+// Components
+@import "components/form";
+
+
+
+
+
+

@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/ html;charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+
+
+    <title>Assignment2</title>
+    <!-- Stylesheet -->
+    <link type="text/css" rel="stylesheet" href="css/main.css">
+
+
+    <!-- Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Quicksand:300,400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:100,400,900' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <div class="max-height">
+        <navbar></navbar>
+        <splash></splash>
+    </div>
+
+
+<!-- Firebase app -->
+    <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.0.5/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.0.5/firebase-auth.js"></script>
+    <!-- <script src="https://www.gstatic.com/firebasejs/3.0.5/firebase-database.js"></script> -->
+    <!-- <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase-storage.js"></script> -->
+    <script>
+        // Initialize Firebase
+        var config = {
+        apiKey: "AIzaSyAeSxueCo5wu4lpFWmmQsUBpik92uLwFxU",
+        authDomain: "project-117336326443564514.firebaseapp.com",
+        databaseURL: "https://project-117336326443564514.firebaseio.com",
+        storageBucket: "project-117336326443564514.appspot.com",
+        };
+        firebase.initializeApp(config);
+    </script>
+
+    
+
+<!-- Source files -->
+     <!-- Riot (no comipler; pre-compiled) -->
+    <script src="https://cdn.jsdelivr.net/riot/2.3/riot.min.js"></script>
+
+    <!-- Riot Control -->
+    <script src="riotcontrol.js"></script>
+
+    <!-- Riot Stores -->
+    <script src="stores/form_store.js"></script>
+
+    <!-- Controller -->
+    <script src="state_controller.js"></script>
+
+    <!-- Riot Tags -->
+    <script src="ctags/form.tag.js"></script>
+
+
+<!-- RiotControl - Initialize Stores -->
+    <script>
+        var formStore = FormStore();
+        RiotControl.addStore(formStore);
+    </script>
+
+
+<!-- Mount Riot Tags -->
+    <script>riot.mount('form')</script>
+
+    <script>
+    /*
+        if logged in
+           show user homepage tags - map with location and last state (groups on/off, etc)
+        else
+            show login splash tags
+    */
+    </script>
+</body>
+</html>
